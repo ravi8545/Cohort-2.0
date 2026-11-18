@@ -14,6 +14,7 @@ app.get("/nodes", (req, res) => {
     res.send(nodes);
 })
 
+
 app.post("/nodes", (req, res) => {
     nodes.push(req.body);
     console.log(req.body);
